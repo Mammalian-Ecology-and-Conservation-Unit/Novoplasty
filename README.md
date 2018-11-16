@@ -1,5 +1,5 @@
 # Novoplasty
- This repository contains the steps I use for extracting mitogenomes from whole genome data
+ This repository contains the steps for extracting mitogenomes from whole genome data
  
  ## Pull NOVOPlasty from github
 The website is here: https://github.com/ndierckx/NOVOPlasty

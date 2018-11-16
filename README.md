@@ -4,7 +4,7 @@
  ## Pull NOVOPlasty from github
 The website is here: https://github.com/ndierckx/NOVOPlasty
 
-And I cloned the repository to the bin directory: 
+I cloned the repository to the bin directory: 
 ```
 git clone https://github.com/ndierckx/NOVOPlasty.git
 ```

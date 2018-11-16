@@ -53,3 +53,17 @@ Make a shell file to run on a cluster
 ```
 test.sh
 ```
+And here's what I placed in the shell file
+```
+#!/bin/bash -l
+#SBATCH -t 10:00:00
+#SBATCH -p med
+#SBATCH --mem=8G
+#SBATCH -o "test.out"
+
+perl ~/bin/NOVOPlasty/NOVOPlasty2.7.2.pl -c ~/projects/Novoplasty/configfile.txt > ~/projects/Novoplasty/output.NOVOPlasty.log
+```
+To run the command on the cluster, we can do: 
+```
+sbatch test.sh   
+```
